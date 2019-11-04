@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.alfresco.support</groupId>
@@ -49,7 +49,7 @@
 				<role>tester</role>
 			</roles>
 		</contributor>
-				<contributor>
+		<contributor>
 			<name>Mark Tunmer</name>
 			<email>mark.tunmer@alfresco.com</email>
 			<organization>Alfresco Support</organization>
@@ -57,7 +57,7 @@
 				<role>tester</role>
 			</roles>
 		</contributor>
-				<contributor>
+		<contributor>
 			<name>Jennie Soria</name>
 			<email>jennie.soria@alfresco.com</email>
 			<organization>Alfresco Expert Support</organization>
@@ -104,6 +104,8 @@
 	</distributionManagement>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
 	<organization>
 		<name>Alfresco Software</name>
@@ -160,15 +162,15 @@
 				<version>3.7.1</version>
 				<configuration>
 					<locales>en</locales>
-				 </configuration>
-				 <dependencies>
+				</configuration>
+				<dependencies>
 					<dependency>
-					   <!-- Docs Maven Skin -->
-					   <groupId>com.bernardomg.maven.skins</groupId>
-					   <artifactId>docs-maven-skin</artifactId>
-					   <version>1.4.3</version>
+						<!-- Docs Maven Skin -->
+						<groupId>com.bernardomg.maven.skins</groupId>
+						<artifactId>docs-maven-skin</artifactId>
+						<version>1.4.3</version>
 					</dependency>
-				 </dependencies>
+				</dependencies>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -176,15 +178,15 @@
 				<version>3.0.0</version>
 			</plugin>
 		</plugins>
-			  <!-- Resources copied by resources plug-in. 
+		<!-- Resources copied by resources plug-in. 
 				Note that mvn site needs to run before mvn install to make sure 
 				the website code exists inside target/site folder -->
 		<resources>
 			<resource>
-			   <directory>${project.build.directory}/site/</directory>
-			   <targetPath>${basedir}/docs/</targetPath>
+				<directory>${project.build.directory}/site/</directory>
+				<targetPath>${basedir}/docs/</targetPath>
 			</resource>
-		 </resources>
+		</resources>
 
 	</build>
 	<reporting>
