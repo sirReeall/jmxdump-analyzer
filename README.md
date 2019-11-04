@@ -50,6 +50,7 @@ First you can clone this repository.
 
 **Building the site/docs**
 `mvn clean site`
+`mvn resources:resources`
 
 This will create the docs/change reports etc... 
 
