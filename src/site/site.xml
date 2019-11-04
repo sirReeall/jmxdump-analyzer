@@ -16,7 +16,6 @@
       <bottomNav></bottomNav>
       <iconNav>
         <menu>Icons</menu>
-        <menu>Alfresco</menu>
       </iconNav>
     </skinConfig>
   </custom>
@@ -38,11 +37,7 @@
 
     <menu name="Icons" inherit="bottom">
       <item name="Github" img="github" href="${project.scm.url}" />
-    </menu>
-
-    <menu name="Alfresco" inherit="bottom">
       <item name="Alfresco" img="https://myalfresco.force.com/support/resource/1373366982000/AlfrescoLogo.png" href="http://www.alfresco.com" />
     </menu>
-
   </body>
 </project>
