@@ -49,7 +49,7 @@ First you can clone this repository.
 `mvn clean install`
 
 **Building the site/docs**
-`mvn clean site:site`
+`mvn clean site`
 
 This will create the docs/change reports etc... 
 
