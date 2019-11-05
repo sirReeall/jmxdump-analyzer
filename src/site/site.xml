@@ -1,4 +1,4 @@
-<project>
+<project name="jmxdump-analyzer">
   <skin>
     <groupId>com.bernardomg.maven.skins</groupId>
     <artifactId>docs-maven-skin</artifactId>
