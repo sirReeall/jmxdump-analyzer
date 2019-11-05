@@ -57,6 +57,10 @@ Latest version is **2.1.4**
 
 Change log can be found [here](changes-report.html)
 
+## Download and Install
+
+Instructions on downloading and installing can be found [here](downloading.html)
+
 ## Author 
 
 [astrachan](https://github.com/astrachan)
