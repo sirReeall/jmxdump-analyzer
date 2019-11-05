@@ -15,7 +15,7 @@ This utility has been completely re-written from scratch with JavaFX making it b
   	* Smaller and more portable
   	
   	
-![Alt text](src/site/resources/images/1.png)
+![Alt text](images/1.png)
 
 
 ## Features
