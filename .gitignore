@@ -11,3 +11,5 @@ target/
 .project
 *.txt
 _site
+Gemfile.lock
+.jekyll-cache/
