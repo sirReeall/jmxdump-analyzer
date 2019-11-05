@@ -109,7 +109,7 @@
 	</properties>
 	<organization>
 		<name>Alfresco Software</name>
-		<url>www.alfresco.com</url>
+		<url>http://www.alfresco.com</url>
 	</organization>
 	<name>JMXDump Analyzer FX</name>
 	<description>This is a complete JavaFX 8 re-write of the original (monstrous) SWT-written JMXDump Analyzer</description>

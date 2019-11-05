@@ -1,4 +1,4 @@
-<project>
+<project name="jmxdump-analyzer">
   <skin>
     <groupId>com.bernardomg.maven.skins</groupId>
     <artifactId>docs-maven-skin</artifactId>
@@ -24,11 +24,11 @@
     <logo name="Maven" href="http://maven.apache.org" img="http://maven.apache.org/images/logos/maven-feather.png" />
   </poweredBy>
 
-  <publishDate position="navigation-bottom" format="MM-dd-yy" />
+  <publishDate position="navigation-bottom" format="dd-MM-yy" />
 
   <body>
     <menu name="Documentation and Reports" inherit="top">
-      <item name="Introduction" href="index.html" />
+      <item name="Home" href="index.html" />
       <item name="Download and Install" href="downloading.html" />
       <item name="Usage" href="install_run.html" />
       <item name="Changes Log" href="./changes-report.html" />
