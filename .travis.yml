@@ -12,10 +12,8 @@ script: ./script/cibuild
 # branch whitelist, only for GitHub Pages
 branches:
   only:
-#  - master     # test the gh-pages branch
-#  - update-maven-docs 
-#  - /pages-(.*)/ # test every branch which starts with "pages-"
-   - travis-ci-for-gh-pages
+  - master     # test the gh-pages branch
+  - update-maven-docs # docs update branch
 
 env:
   global:
