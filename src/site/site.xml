@@ -24,7 +24,7 @@
     <logo name="Maven" href="http://maven.apache.org" img="http://maven.apache.org/images/logos/maven-feather.png" />
   </poweredBy>
 
-  <publishDate position="navigation-bottom" format="MM-dd-yy" />
+  <publishDate position="navigation-bottom" format="dd-MM-yy" />
 
   <body>
     <menu name="Documentation and Reports" inherit="top">
