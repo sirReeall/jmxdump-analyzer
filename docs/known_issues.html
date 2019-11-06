@@ -168,12 +168,12 @@
 <header class="page-header">
  <h1 id="known-issues">Known Issues</h1>
 </header> 
-<ol style="list-style-type: decimal"> 
- <li>Problem opening the file in text editor on Linux systems</li> 
-</ol> 
-<p>You may come across an issue on a Linux system where you have clicked Tools -&gt; Open file in text editor and an exception has occurred (and the file not opened)</p> 
-<p><tt>java.lang.UnsupportedOperationException: The EDIT action is not supported on the current platform!</tt></p> 
-<p>The problem here is that we are using java.awt.Desktop utility class on Linux systems and I have found that that just does not work sometimes. At the moment I can’t tell if if it’s a GTK versioning issue or something else on the Linux system itself. In the meantime you will not be able to open the file automatically from the UI in your text editor, you will have to do that manually…sorry</p>
+<section> 
+ <h2 id="problem-opening-the-file-in-text-editor-on-linux-systems">Problem opening the file in text editor on Linux systems</h2> 
+ <p>You may come across an issue on a Linux system where you have clicked Tools -&gt; Open file in text editor and an exception has occurred (and the file not opened)</p> 
+ <p><tt>java.lang.UnsupportedOperationException: The EDIT action is not supported on the current platform!</tt></p> 
+ <p>The problem here is that we are using java.awt.Desktop utility class on Linux systems and I have found that that just does not work sometimes. At the moment I can’t tell if if it’s a GTK versioning issue or something else on the Linux system itself. In the meantime you will not be able to open the file automatically from the UI in your text editor, you will have to do that manually…sorry</p>
+</section>
     <p class="pull-right internal-link"><a href="#main-section">Back to top</a></p>
 </section>
 <footer class="footer">

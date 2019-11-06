@@ -1,6 +1,6 @@
 # Known Issues
 
-1. Problem opening the file in text editor on Linux systems
+## Problem opening the file in text editor on Linux systems
 
 You may come across an issue on a Linux system where you have clicked Tools -> Open file in text editor and an exception has occurred (and the file not opened)
 
