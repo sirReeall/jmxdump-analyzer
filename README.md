@@ -12,4 +12,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## Documenation
 
-Documentation can be found [here](docs/index.html)
+Documentation can be found [here](https://sirreeall.github.io/jmxdump-analyzer/)
