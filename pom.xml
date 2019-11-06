@@ -202,6 +202,9 @@
 						</reports>
 					</reportSet>
 				</reportSets>
+				<configuration>
+					<teamlist>team.html</teamlist> <!-- Fix info plugin 3.0 incompatibility notice https://maven.apache.org/plugins/maven-project-info-reports-plugin/ -->
+				</configuration>
 			</plugin>
 		</plugins>
 	</reporting>
