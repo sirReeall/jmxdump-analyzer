@@ -72,7 +72,7 @@
 			scm:git:[fetch=]https://github.com/Alfresco/jmxdump-analyzer.git[push=]ssh://git@github.com:Alfresco/jmxdump-analyzer.git
 		</developerConnection>
 		<tag>head</tag>
-		<url>https://www.github.com/sirReeall/testing-maven-site-plugin</url>
+		<url>https://github.com/Alfresco/jmxdump-analyzer</url>
 	</scm>
 
 	<dependencies>
