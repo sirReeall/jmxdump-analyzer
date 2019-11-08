@@ -65,4 +65,4 @@ Instructions on downloading and installing can be found [here](downloading.html)
 
 [astrachan](https://github.com/astrachan)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Alfresco/jmxdump-analyzer/graphs/contributors) who participated in this project.
