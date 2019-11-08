@@ -13,3 +13,4 @@ target/
 _site
 Gemfile.lock
 .jekyll-cache/
+tmp/

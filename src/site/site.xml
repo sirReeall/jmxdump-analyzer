@@ -29,8 +29,8 @@
   <body>
     <menu name="Documentation and Reports" inherit="top">
       <item name="Home" href="index.html" />
-      <item name="Download and Install" href="downloading.html" />
-      <item name="Usage" href="install_run.html" />
+      <item name="Download and Build" href="downloading.html" />
+      <item name="Usage" href="usage.html" />
       <item name="Changes Log" href="./changes-report.html" />
       <item name="Known issues" href="known_issues.html" />
     </menu>
