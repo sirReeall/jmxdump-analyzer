@@ -8,7 +8,7 @@ task :html_proofer do
     :allow_hash_href => true, # maven docs skin has "back to top href=# link"
     :check_html => true,
     :check_img_http => false, # gravatar images are configured as http
-    :url_ignore => [/artifacts.alfresco.com/], # Nexus artifacts requre a log in and retun 401 errors when tested
+    :url_ignore => [/artifacts.alfresco.com/,/#astrachan/,/#sirReeall/], # Nexus artifacts requre a log in and retun 401 errors when tested
     :cache => {
       :timeframe => '6w'
     }
