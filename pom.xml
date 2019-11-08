@@ -175,7 +175,8 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-project-info-reports-plugin</artifactId>
-				<version>3.0.0</version>
+				<!-- dropped to 2.9 as there is an issue with team-list.html/ team.html missing mailto -->
+				<version>2.9</version> 
 			</plugin>
 		</plugins>
 		<!-- Resources copied by resources plug-in. 
@@ -202,9 +203,6 @@
 						</reports>
 					</reportSet>
 				</reportSets>
-				<configuration>
-					<teamlist>team.html</teamlist> <!-- Fix info plugin 3.0 incompatibility notice https://maven.apache.org/plugins/maven-project-info-reports-plugin/ -->
-				</configuration>
 			</plugin>
 		</plugins>
 	</reporting>
